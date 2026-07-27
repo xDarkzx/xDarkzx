@@ -1,0 +1,37 @@
+name: generate contribution snake
+
+# Regenerates the animated "snake eating your contribution graph" SVG twice a
+# day, or on every push to main. Pushes the generated file to an "output"
+# branch (kept separate from main so it doesn't pollute commit history), and
+# the profile README pulls the raw SVG straight from that branch.
+on:
+  schedule:
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  generate:
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: generate snake SVGs
+        uses: Platane/snk@v3
+        with:
+          github_user_name: xDarkzx
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+
+      - name: push to output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

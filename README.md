@@ -1,43 +1,64 @@
-<h1 align="center">Hey, I'm Dan 👋</h1>
+<div align="center">
 
-<p align="center">
-  <strong>I build the connective tissue between AI and the tools people already use — deep systems integration, not chatbot wrappers.</strong>
-</p>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1000&color=5865F2&center=true&vCenter=true&width=600&lines=Building+the+bridge+between+AI+and+the+tools+you+use;Full+protocol+coverage%2C+not+wrapper+demos;Solo+dev+%E2%80%94+New+Zealand" alt="Typing SVG" />
 
-<p align="center">
+<p>
   <a href="https://discord.gg/BGn8Ujh37m"><img src="https://img.shields.io/discord/1530363483701510154?label=discord&logo=discord&color=5865F2" alt="Discord" /></a>
   <a href="https://x.com/daehonz1"><img src="https://img.shields.io/badge/%F0%9D%95%8F-@daehonz1-000000?logo=x" alt="X" /></a>
   <a href="https://buymeacoffee.com/xdarkzx"><img src="https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?logo=buy-me-a-coffee&logoColor=black" alt="Buy Me A Coffee" /></a>
 </p>
 
-Based in New Zealand, working solo on real, working MCP servers for the creative software people actually use every day — not proofs of concept, full protocol coverage, verified against the real source instead of guessed.
+<img src="https://skillicons.dev/icons?i=python,typescript,nodejs,docker,solidity,git" alt="Skills" />
+
+</div>
 
 ---
 
 ## Featured: The MCP Suite
 
-Three MCP servers, one philosophy — every tool verified against the real protocol/source, not guessed from a UI label. Full obs-websocket / REAPER API / mod-script-pipe coverage, not a handful of convenience wrappers.
+Three MCP servers, one philosophy — every tool verified against the real protocol/source, not guessed from a UI label.
 
 | | Stars | What it does |
 |---|:---:|---|
-| **[Audacity-MCP](https://github.com/xDarkzx/Audacity-MCP)** | ⭐ 62 | Full control over Audacity — 131 tools + 9 pipelines spanning effects, cleanup, mastering, transcription. Talk to your AI, it edits your audio in real time. |
-| **[Reaper-MCP](https://github.com/xDarkzx/Reaper-MCP)** | ⭐ 31 | AI-driven music production in REAPER — 172 tools for composition, mixing, mastering, batch editing, audio QC, and ReaScript automation. |
-| **[OBS-MCP](https://github.com/xDarkzx/OBS_MCP)** | ⭐ 1 | AI control of OBS Studio — 148 tools covering scenes, the full audio mixer, filters, streaming, recording, and stream-health diagnostics. |
+| **[Audacity-MCP](https://github.com/xDarkzx/Audacity-MCP)** | ⭐ 62 | Full control over Audacity — 131 tools + 9 pipelines spanning effects, cleanup, mastering, transcription. |
+| **[Reaper-MCP](https://github.com/xDarkzx/Reaper-MCP)** | ⭐ 31 | AI-driven music production in REAPER — 172 tools for composition, mixing, mastering, batch editing. |
+| **[OBS-MCP](https://github.com/xDarkzx/OBS_MCP)** | ⭐ 1 | AI control of OBS Studio — 148 tools covering scenes, the audio mixer, filters, streaming, recording. |
 
-All three run **entirely locally** — no cloud, no API keys for the actual media processing, your project/audio/video never leaves your machine.
+All three run **entirely locally** — no cloud, no API keys for the actual media processing.
+
+---
+
+<div align="center">
+
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=xDarkzx&show_icons=true&theme=dark&hide_border=true&count_private=true" alt="GitHub Stats" />
+<img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=xDarkzx&theme=dark&hide_border=true" alt="GitHub Streak" />
+
+<img src="https://github-profile-trophy.vercel.app/?username=xDarkzx&theme=darkhub&no-frame=true&column=7&margin-w=8" alt="Trophies" />
+
+</div>
+
+---
+
+<div align="center">
+
+### 2 weeks of commits, as a snake eating the squares
+
+<img src="https://raw.githubusercontent.com/xDarkzx/xDarkzx/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" />
+
+</div>
 
 ---
 
 ## Also Building
 
-- **[TheLastBastion](https://github.com/xDarkzx/TheLastBastion)** — Security infrastructure for autonomous AI agents: cryptographic identity verification (Ed25519 challenge-response, not just key possession), a 10-check trust pipeline, tamper-evident Merkle-chain audit trails, and an attack sandbox that simulates prompt injection, identity spoofing, and Sybil attacks against your agent.
-- **[The-Rosetta-Engine](https://github.com/xDarkzx/The-Rosetta-Engine)** — An AI-powered Ancient Egyptian hieroglyph explorer: translate, browse, and hear reconstructed Egyptian pronunciation through neural voice synthesis.
-- **[Ganzflicker_FX](https://github.com/xDarkzx/Ganzflicker_FX)** — Browser-based audiovisual entrainment combining photic driving with auditory stimulation, built on the Web Audio API and Canvas.
+- **[TheLastBastion](https://github.com/xDarkzx/TheLastBastion)** — Security infrastructure for autonomous AI agents: cryptographic identity verification, a 10-check trust pipeline, tamper-evident Merkle-chain audit trails, and an attack sandbox.
+- **[The-Rosetta-Engine](https://github.com/xDarkzx/The-Rosetta-Engine)** — AI-powered Ancient Egyptian hieroglyph explorer: translate, browse, and hear reconstructed Egyptian pronunciation.
+- **[Ganzflicker_FX](https://github.com/xDarkzx/Ganzflicker_FX)** — Browser-based audiovisual entrainment combining photic driving with auditory stimulation.
 
 ---
 
-## Get in Touch
+<div align="center">
 
-Building something in this space, or want to collaborate? Come say hi in [Discord](https://discord.gg/BGn8Ujh37m), or reach out on [X](https://x.com/daehonz1).
+If any of this has helped you, a star on the repos goes further than you'd think — that's the entire marketing budget for a one-person shop.
 
-If any of this has been useful to you, a star on the repos goes further than you'd think — that's the entire marketing budget for a one-person shop.
+</div>
