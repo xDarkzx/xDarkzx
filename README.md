@@ -18,6 +18,12 @@ My open-source MCP servers give Claude, Cursor and other MCP clients deep, relia
 | **[FMOD Studio MCP](https://github.com/xDarkzx/Dans_Fmod_Studio_MCP)** | ![stars](https://img.shields.io/github/stars/xDarkzx/Dans_Fmod_Studio_MCP?style=flat&label=★) | Game-audio authoring through FMOD's scripting terminal: events, parameters, mixer, banks and interactive music. |
 | **[SongForge-MCP](https://github.com/xDarkzx/SongForge-MCP)** | ![stars](https://img.shields.io/github/stars/xDarkzx/SongForge-MCP?style=flat&label=★) | Local AI music generation (ACE-Step) with stem splitting and reference-style matching, driven from Claude Desktop. |
 
+### See it in action
+
+| Audacity-MCP | Reaper-MCP |
+|:---:|:---:|
+| [![Audacity-MCP demo](https://img.youtube.com/vi/xiMh3d97QtQ/hqdefault.jpg)](https://youtu.be/xiMh3d97QtQ) | [![Reaper-MCP demo](https://img.youtube.com/vi/F0i5njHaMXQ/hqdefault.jpg)](https://youtu.be/F0i5njHaMXQ) |
+
 ## How I build
 
 - **Verified against the real thing.** Every tool is checked against the application's protocol or source code, not guessed from UI labels.
