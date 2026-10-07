@@ -28,7 +28,7 @@ My open-source MCP servers give Claude, Cursor and other MCP clients deep, relia
 ## Also
 
 - **[GigChain-Keys](https://github.com/xDarkzx/GigChain-Keys)** — a C++ live-performance rig for keyboard players: VST3 hosting, setlists, chord charts and a stage-ready Perform mode.
-- **[The Rosetta Engine](https://github.com/xDarkzx/The-Rosetta-Engine)** — an Ancient Egyptian hieroglyph explorer with translation and reconstructed neural-voice pronunciation.
+- **[The Last Bastion](https://github.com/xDarkzx/TheLastBastion)** — a research prototype exploring how machine-to-machine trust could work once AI agents operate fully autonomously: Ed25519 challenge-response identity, signed agent passports verifiable offline, and tamper-evident audit trails for the data agents exchange.
 
 **Stack:** Python · C++ · TypeScript · Node.js · Model Context Protocol · Docker · local AI audio models
 
