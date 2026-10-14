@@ -10,7 +10,7 @@ My open-source MCP servers give Claude, Cursor and other MCP clients deep, relia
 
 | Project | What it does |
 |---|---|
-| **[Revisa](https://github.com/xDarkzx/Revisa)** | Reads construction-drawing title blocks into a drawing register. OCR with Azure Document Intelligence, a gpt-4.1-mini reader that may only cite text the OCR found, review routing, and a register in Cosmos DB. Measured on a held-out set of 200 public-domain drawings; deployed once with Bicep and keyless (managed identity) access, then torn down, with the [evidence](https://github.com/xDarkzx/Revisa/tree/main/docs/azure-proof) committed. |
+| **[Revisa](https://github.com/xDarkzx/Revisa)** | Reads construction-drawing title blocks into a drawing register. OCR with Azure Document Intelligence, a gpt-4.1-mini reader that may only cite text the OCR found, review routing, and a register in Cosmos DB. Measured on 200 labelled public-domain drawings, with results reported on a held-out half; deployed once with Bicep and keyless (managed identity) access, then torn down, with the [evidence](https://github.com/xDarkzx/Revisa/tree/main/docs/azure-proof) committed. |
 | **[Escalon](https://github.com/xDarkzx/Escalon)** | IT-support agent on Microsoft Agent Framework: hybrid search over Microsoft docs, MCP tools for Copilot Studio, Entra ID auth, ticketing and evals. |
 
 Both are built the way a team would build them: protected `main`, pull requests only, CI with lint, type checks, tests, dependency and secret scanning, ADRs and a changelog.
