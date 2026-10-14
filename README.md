@@ -60,6 +60,20 @@ build it.
 </tr>
 </table>
 
+## Featured: robotics and AI vision
+
+### [Companion](https://github.com/xDarkzx/Companion)
+**A ROS 2 robot brain that finds what you ask for.** Ask "where is the mug?" and it answers in metres.
+
+- Open-vocabulary detection (OWLv2, Grounding DINO) plus depth, placing objects in 3D for a voice agent on ROS 2 Jazzy with Nav2
+- Measured on public data: 43.6 AP on COCO, and a 5.4 cm median 3D error on NYU Depth V2 with a depth camera
+- Typed topic and service contracts checked in CI, launch tests of the full voice-to-answer path, and a one-command Docker gate
+
+![ROS 2](https://img.shields.io/badge/ROS%202-Jazzy-22314E?style=flat-square&logo=ros)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![Computer Vision](https://img.shields.io/badge/Computer%20Vision-0b1020?style=flat-square)
+![Nav2](https://img.shields.io/badge/Nav2-1d76db?style=flat-square)
+
 ## MCP servers used in the wild
 
 | Project | Stars | What it does |
@@ -85,6 +99,8 @@ build it.
   <img src="https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white" alt="Azure">
   <img src="https://img.shields.io/badge/Azure%20OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white" alt="Azure OpenAI">
   <img src="https://img.shields.io/badge/MCP-111827?style=for-the-badge" alt="Model Context Protocol">
+  <img src="https://img.shields.io/badge/ROS%202-22314E?style=for-the-badge&logo=ros&logoColor=white" alt="ROS 2">
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch">
   <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI">
   <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React">
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker">
