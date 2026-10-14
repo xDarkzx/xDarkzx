@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b1020"/>
+      <stop offset="55%" stop-color="#111a3a"/>
+      <stop offset="100%" stop-color="#1b0f33"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="50%" stop-color="#818cf8"/>
+      <stop offset="100%" stop-color="#e879f9"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#ffffff" stroke-opacity="0.04"/>
+    </pattern>
+    <style>
+      .name{font:700 56px 'Segoe UI',Helvetica,Arial,sans-serif;fill:#f8fafc}
+      .role{font:600 26px 'Segoe UI',Helvetica,Arial,sans-serif;fill:url(#accent)}
+      .tag{font:400 18px 'Segoe UI',Helvetica,Arial,sans-serif;fill:#94a3b8}
+      .node{fill:#818cf8}
+      .pulse{animation:pulse 3s ease-in-out infinite}
+      .p2{animation-delay:1s}.p3{animation-delay:2s}
+      @keyframes pulse{0%,100%{opacity:.25}50%{opacity:1}}
+      .flow{stroke-dasharray:6 10;animation:flow 2.5s linear infinite}
+      @keyframes flow{to{stroke-dashoffset:-64}}
+      .fade{animation:fade 1.2s ease-out both}
+      .d2{animation-delay:.3s}.d3{animation-delay:.6s}
+      @keyframes fade{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+    </style>
+  </defs>
+  <rect width="1200" height="260" rx="18" fill="url(#bg)"/>
+  <rect width="1200" height="260" rx="18" fill="url(#grid)"/>
+  <rect x="0" y="252" width="1200" height="8" fill="url(#accent)"/>
+
+  <g fill="none" stroke="url(#accent)" stroke-width="2" stroke-opacity="0.7">
+    <path class="flow" d="M860 70 L960 120 L1080 80"/>
+    <path class="flow" d="M960 120 L1010 200 L1120 170"/>
+    <path class="flow" d="M860 70 L900 190 L1010 200"/>
+  </g>
+  <circle class="node pulse" cx="860" cy="70" r="7"/>
+  <circle class="node pulse p2" cx="960" cy="120" r="9"/>
+  <circle class="node pulse p3" cx="1080" cy="80" r="7"/>
+  <circle class="node pulse" cx="1010" cy="200" r="8"/>
+  <circle class="node pulse p2" cx="1120" cy="170" r="6"/>
+  <circle class="node pulse p3" cx="900" cy="190" r="6"/>
+
+  <text x="60" y="105" class="name">Hi, I'm Dan</text>
+  <text x="60" y="150" class="role">AI Software Engineer · Azure · MCP · Agents</text>
+  <text x="60" y="195" class="tag">Grounded AI systems, measured and shipped with production engineering · New Zealand</text>
+</svg>

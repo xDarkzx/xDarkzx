@@ -1,31 +1,74 @@
-# Hi, I'm Dan
+<p align="center">
+  <img src="assets/banner.svg" alt="Dan: AI Software Engineer, Azure, MCP and agents" width="100%">
+</p>
 
-**I build MCP integrations that let AI assistants operate real desktop software.**
+<p align="center">
+  <a href="mailto:dkstudiosnz@gmail.com"><img src="https://img.shields.io/badge/Email-dkstudiosnz%40gmail.com-0b1020?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
+  <a href="https://discord.gg/BGn8Ujh37m"><img src="https://img.shields.io/badge/Discord-Join-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord"></a>
+  <a href="https://x.com/daehonz1"><img src="https://img.shields.io/badge/X-@daehonz1-000000?style=for-the-badge&logo=x&logoColor=white" alt="X"></a>
+  <img src="https://img.shields.io/badge/Open%20to-AI%20engineering%20roles-22c55e?style=for-the-badge" alt="Open to AI engineering roles">
+</p>
 
-My open-source MCP servers give Claude, Cursor and other MCP clients deep, reliable control of Audacity, REAPER, OBS Studio and FMOD Studio — not thin wrapper demos, but hundreds of tools mapped against each application's actual protocol and source, with tests, CI and one-command installers. They're used by producers, podcasters and streamers, and have taken contributions from ten outside developers.
+<p align="center">
+  <img src="https://img.shields.io/badge/stars%20across%20my%20projects-233-f59e0b?style=flat-square&logo=github" alt="233 stars">
+  <img src="https://img.shields.io/badge/outside%20contributors-10-38bdf8?style=flat-square" alt="10 outside contributors">
+  <img src="https://img.shields.io/badge/MCP%20tools%20shipped-500%2B-818cf8?style=flat-square" alt="500+ MCP tools shipped">
+  <img src="https://img.shields.io/badge/based%20in-New%20Zealand-e879f9?style=flat-square" alt="New Zealand">
+</p>
 
-📍 New Zealand · working remotely · **available for contract work**
+I build AI systems that do real work and can be trusted with it: agents that operate desktop
+software through the Model Context Protocol, and document pipelines on Azure that only report
+what they can point to. Everything ships with tests, CI and evaluation, the way a team would
+build it.
 
-## Azure AI engineering
+## Featured: Azure AI engineering
 
-| Project | What it does |
-|---|---|
-| **[Revisa](https://github.com/xDarkzx/Revisa)** | Reads construction-drawing title blocks into a drawing register. OCR with Azure Document Intelligence, a gpt-4.1-mini reader that may only cite text the OCR found, review routing, and a register in Cosmos DB. Measured on 200 labelled public-domain drawings, with results reported on a held-out half; deployed once with Bicep and keyless (managed identity) access, then torn down, with the [evidence](https://github.com/xDarkzx/Revisa/tree/main/docs/azure-proof) committed. |
-| **[Escalon](https://github.com/xDarkzx/Escalon)** | IT-support agent on Microsoft Agent Framework: hybrid search over Microsoft docs, MCP tools for Copilot Studio, Entra ID auth, ticketing and evals. |
+<table>
+<tr>
+<td width="50%" valign="top">
 
-Both are built the way a team would build them: protected `main`, pull requests only, CI with lint, type checks, tests, dependency and secret scanning, ADRs and a changelog.
+### [Revisa](https://github.com/xDarkzx/Revisa)
+**Document AI on Azure.** Reads construction-drawing title blocks into a drawing register.
 
----
+- Azure Document Intelligence OCR, then a gpt-4.1-mini reader that may only cite text the OCR found
+- Review routing with reasons, and a register in Cosmos DB
+- Measured on 200 labelled drawings, reported on a held-out half
+- Deployed with Bicep and managed identity, run once, then torn down, with the [evidence committed](https://github.com/xDarkzx/Revisa/tree/main/docs/azure-proof)
 
-## Selected work
+![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
+![OpenAI](https://img.shields.io/badge/Azure%20OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
+![Cosmos DB](https://img.shields.io/badge/Cosmos%20DB-0078D4?style=flat-square)
+![Bicep](https://img.shields.io/badge/Bicep-0078D4?style=flat-square)
 
-| Project | | What it does |
+</td>
+<td width="50%" valign="top">
+
+### [Escalon](https://github.com/xDarkzx/Escalon)
+**Grounded IT-support agent.** Built on Microsoft Agent Framework.
+
+- Hybrid search over Microsoft support docs
+- MCP tools exposed to Copilot Studio
+- Entra ID authentication and ticketing integration
+- Evaluation suite for answer quality
+
+![Agent Framework](https://img.shields.io/badge/Agent%20Framework-5C2D91?style=flat-square)
+![Copilot Studio](https://img.shields.io/badge/Copilot%20Studio-0078D4?style=flat-square)
+![Entra ID](https://img.shields.io/badge/Entra%20ID-0078D4?style=flat-square)
+![MCP](https://img.shields.io/badge/MCP-111827?style=flat-square)
+
+</td>
+</tr>
+</table>
+
+## MCP servers used in the wild
+
+| Project | Stars | What it does |
 |---|---|---|
-| **[Audacity-MCP](https://github.com/xDarkzx/Audacity-MCP)** | ![stars](https://img.shields.io/github/stars/xDarkzx/Audacity-MCP?style=flat&label=★) | 144 tools and 9 end-to-end pipelines for AI-driven audio editing: cleanup, effects, mastering, transcription and podcast workflows. |
-| **[Reaper-MCP](https://github.com/xDarkzx/Reaper-MCP)** | ![stars](https://img.shields.io/github/stars/xDarkzx/Reaper-MCP?style=flat&label=★) | 181 tools for music production in REAPER: composition, mixing, mastering, batch editing, audio QC and ReaScript automation. |
-| **[OBS-MCP](https://github.com/xDarkzx/OBS_MCP)** | ![stars](https://img.shields.io/github/stars/xDarkzx/OBS_MCP?style=flat&label=★) | 148 tools over obs-websocket: scenes, audio mixer, filters, streaming, recording and live stream-health diagnostics. |
-| **[FMOD Studio MCP](https://github.com/xDarkzx/Dans_Fmod_Studio_MCP)** | ![stars](https://img.shields.io/github/stars/xDarkzx/Dans_Fmod_Studio_MCP?style=flat&label=★) | Game-audio authoring through FMOD's scripting terminal: events, parameters, mixer, banks and interactive music. |
-| **[SongForge-MCP](https://github.com/xDarkzx/SongForge-MCP)** | ![stars](https://img.shields.io/github/stars/xDarkzx/SongForge-MCP?style=flat&label=★) | Local AI music generation (ACE-Step) with stem splitting and reference-style matching, driven from Claude Desktop. |
+| **[Audacity-MCP](https://github.com/xDarkzx/Audacity-MCP)** | ![stars](https://img.shields.io/github/stars/xDarkzx/Audacity-MCP?style=flat-square&label=%E2%98%85&color=f59e0b) | 144 tools and 9 end-to-end pipelines for AI-driven audio editing: cleanup, effects, mastering, transcription, podcasts. |
+| **[Reaper-MCP](https://github.com/xDarkzx/Reaper-MCP)** | ![stars](https://img.shields.io/github/stars/xDarkzx/Reaper-MCP?style=flat-square&label=%E2%98%85&color=f59e0b) | 181 tools for music production in REAPER: composition, mixing, mastering, batch editing and ReaScript automation. |
+| **[OBS-MCP](https://github.com/xDarkzx/OBS_MCP)** | ![stars](https://img.shields.io/github/stars/xDarkzx/OBS_MCP?style=flat-square&label=%E2%98%85&color=f59e0b) | 148 tools over obs-websocket: scenes, audio, filters, streaming, recording and stream-health diagnostics. |
+| **[FMOD Studio MCP](https://github.com/xDarkzx/Dans_Fmod_Studio_MCP)** | ![stars](https://img.shields.io/github/stars/xDarkzx/Dans_Fmod_Studio_MCP?style=flat-square&label=%E2%98%85&color=f59e0b) | Game-audio authoring through FMOD's scripting terminal: events, parameters, mixer, banks, interactive music. |
+| **[SongForge-MCP](https://github.com/xDarkzx/SongForge-MCP)** | ![stars](https://img.shields.io/github/stars/xDarkzx/SongForge-MCP?style=flat-square&label=%E2%98%85&color=f59e0b) | Local AI music generation (ACE-Step) with stem splitting and reference-style matching, driven from Claude Desktop. |
 
 ### See it in action
 
@@ -33,24 +76,40 @@ Both are built the way a team would build them: protected `main`, pull requests 
 |:---:|:---:|
 | [![Audacity-MCP demo](https://img.youtube.com/vi/xiMh3d97QtQ/hqdefault.jpg)](https://youtu.be/xiMh3d97QtQ) | [![Reaper-MCP demo](https://img.youtube.com/vi/F0i5njHaMXQ/hqdefault.jpg)](https://youtu.be/F0i5njHaMXQ) |
 
+## Tech stack
+
+<p>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++">
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript">
+  <img src="https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white" alt="Azure">
+  <img src="https://img.shields.io/badge/Azure%20OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white" alt="Azure OpenAI">
+  <img src="https://img.shields.io/badge/MCP-111827?style=for-the-badge" alt="Model Context Protocol">
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI">
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React">
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker">
+  <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" alt="GitHub Actions">
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL">
+  <img src="https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white" alt="Ollama">
+</p>
+
 ## How I build
 
-- **Verified against the real thing.** Every tool is checked against the application's protocol or source code, not guessed from UI labels.
-- **Production hygiene.** Test suites, CI, changelogs, security policies, Apache-2.0 licensing and installers for Windows and macOS.
-- **Local-first.** Media processing runs on the user's machine — no cloud services or API keys required.
+- **Grounded, not guessed.** Model output has to point at its evidence; MCP tools are checked against each application's real protocol and source.
+- **Measured.** Labelled evaluation sets, held-out results, and numbers reported as they are.
+- **Production hygiene.** Protected branches, pull requests, CI with lint, types, tests and security scanning, changelogs and ADRs.
 - **Maintained in public.** Issues triaged, outside pull requests reviewed and merged, releases documented.
 
-## Also
+## Also built
 
-- **[GigChain-Keys](https://github.com/xDarkzx/GigChain-Keys)** — a C++ live-performance rig for keyboard players: VST3 hosting, setlists, chord charts and a stage-ready Perform mode.
-- **[The Last Bastion](https://github.com/xDarkzx/TheLastBastion)** — a research prototype exploring how machine-to-machine trust could work once AI agents operate fully autonomously: Ed25519 challenge-response identity, signed agent passports verifiable offline, and tamper-evident audit trails for the data agents exchange.
+- **[GigChain-Keys](https://github.com/xDarkzx/GigChain-Keys)**: a C++ live-performance rig for keyboard players, with VST3 hosting, setlists, chord charts and a stage-ready Perform mode.
+- **[The Last Bastion](https://github.com/xDarkzx/TheLastBastion)**: trust infrastructure for autonomous AI agents, with Ed25519 challenge-response identity, signed agent passports and tamper-evident audit trails.
 
-**Stack:** Python · C++ · Azure (Document Intelligence, OpenAI, Cosmos DB, Bicep, Entra ID) · TypeScript · Node.js · Model Context Protocol · Docker · local AI audio models
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/xDarkzx/xDarkzx/output/github-contribution-grid-snake-dark.svg">
+    <img alt="Contribution graph animation" src="https://raw.githubusercontent.com/xDarkzx/xDarkzx/output/github-contribution-grid-snake.svg">
+  </picture>
+</p>
 
----
-
-## Work with me
-
-I take on contract work building MCP servers and AI integrations for software products — new servers for your application, extending or hardening an existing one, or advising on how to expose your product to AI agents.
-
-📧 **dkstudiosnz@gmail.com** · [Discord](https://discord.gg/BGn8Ujh37m) · [X / @daehonz1](https://x.com/daehonz1)
+<p align="center"><b>Hiring for AI engineering in New Zealand or remote?</b> <a href="mailto:dkstudiosnz@gmail.com">Get in touch</a>. I also take contract work building MCP servers and AI integrations.</p>
