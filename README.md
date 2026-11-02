@@ -21,24 +21,24 @@ software through the Model Context Protocol, and document pipelines on Azure tha
 what they can point to. Everything ships with tests, CI and evaluation, the way a team would
 build it.
 
-## Featured: Azure AI engineering
+## Featured: AI and security engineering
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### [Revisa](https://github.com/xDarkzx/Revisa)
-**Document AI on Azure.** Reads construction-drawing title blocks into a drawing register.
+### [Lintel](https://github.com/xDarkzx/Lintel)
+**Access control from the keypad to the console.** ESP32-P4 touchscreen keypad, door controller and a hardened FastAPI server.
 
-- Azure Document Intelligence OCR, then a gpt-4.1-mini reader that may only cite text the OCR found
-- Review routing with reasons, and a register in Cosmos DB
-- Measured on 200 labelled drawings, reported on a held-out half
-- Deployed with Bicep and managed identity, run once, then torn down, with the [evidence committed](https://github.com/xDarkzx/Revisa/tree/main/docs/azure-proof)
+- AES-128-CCM sealed door protocol with replay protection, X25519 keypad adoption and fuzzed decoders
+- Face recognition with liveness checks, tailgating detection, duress PINs and a hash-chained audit trail
+- Walk-through face access in progress: depth-camera liveness and unauthorised-person alarms
+- A threat model where every defence has a test; SQLite or PostgreSQL; CI with dependency and secret scanning
 
-![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
-![OpenAI](https://img.shields.io/badge/Azure%20OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
-![Cosmos DB](https://img.shields.io/badge/Cosmos%20DB-0078D4?style=flat-square)
-![Bicep](https://img.shields.io/badge/Bicep-0078D4?style=flat-square)
+![ESP32](https://img.shields.io/badge/ESP32--P4-E7352C?style=flat-square&logo=espressif&logoColor=white)
+![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 
 </td>
 <td width="50%" valign="top">
